@@ -1,30 +1,42 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin=0
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
-h1{
-    font-size: 40px;
+h1 {
+  font-size: 40px;
 }
-.blog-name{
-    color: crimson;
+.blog-name {
+  color: crimson;
 }
-.flexible-container{
-    display: flex;
-
+.flexible-container {
+  display: flex;
+  padding: 20px;
 }
-.half-width{
-    width: 50%;
-    
+.half-width {
+  width: 50%;
 }
-img{
-    width: 95%;
-    height: 450px;
-    
+img {
+  width: 95%;
+  height: 450px;
+  position: relative;
+  padding-left: 15px;
+  padding-bottom: 10px;
 }
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(rgba(158, 11, 216, 0.973),cyan);
-    border-radius: 5px;
-    color:black;
-    padding: 6px;
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(rgba(158, 11, 216, 0.973), cyan);
+  border-radius: 5px;
+  color: black;
+  padding: 6px;
+}
+.top-banner {
+  background-image: url(image/aaaa.png);
+  background-repeat: no-repeat;
+}
+.mid-banner {
+  background-image: url(image/Wave-10s-1366px.png);
+  background-repeat: no-repeat;
+}
+p {
+  text-align: justify;
 }
