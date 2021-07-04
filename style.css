@@ -30,13 +30,51 @@ img {
   padding: 6px;
 }
 .top-banner {
-  background-image: url(image/aaaa.png);
+  background-image: url(image/bg-1.jpg);
   background-repeat: no-repeat;
 }
 .mid-banner {
-  background-image: url(image/Wave-10s-1366px.png);
+  background-image: url(image/bg-1.jpg);
   background-repeat: no-repeat;
 }
 p {
   text-align: justify;
+}
+#video-valo {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+video {
+  width: 320px;
+  height: 180px;
+}
+#video-codm2 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+#video-codm {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.game-name {
+  text-shadow: 5px 5px 5px gray;
+  color: crimson;
+  text-align: center;
+  font-weight: 600;
+}
+.video-text {
+  border-left: 2px solid crimson;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.background-img {
+  background-image: url(image/bg-new.jpg);
+  background-repeat: no-repeat;
 }
