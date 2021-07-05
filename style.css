@@ -30,14 +30,14 @@ img {
   padding: 6px;
 }
 .top-banner {
-  background-image: url(image/bg-1.jpg);
+  background-image: url(image/bg-new.jpg);
   background-repeat: no-repeat;
-  box-shadow: 0px 0px 2px 2px darkmagenta inset;
+  box-shadow: 0px 0px 2px 2px rgb(29, 16, 29) inset;
 }
 .mid-banner {
-  background-image: url(image/bg-1.jpg);
+  background-image: url(image/bg-new.jpg);
   background-repeat: no-repeat;
-  box-shadow: 0px 0px 2px 2px darkmagenta inset;
+  box-shadow: 0px 0px 2px 2px rgb(31, 18, 31) inset;
 }
 p {
   text-align: justify;
@@ -79,5 +79,53 @@ video {
 .background-img {
   background-image: url(image/bg-new.jpg);
   background-repeat: no-repeat;
-  box-shadow: 0px 0px 2px 2px darkmagenta inset;
+  box-shadow: 0px 0px 2px 2px rgb(32, 19, 32) inset;
+}
+.join-text {
+  text-align: center;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+#boxed {
+  background-image: url(image/bg-new.jpg);
+  width: 20%;
+  height: 40%;
+  border: 1px dotted orange;
+  padding: 30px;
+  margin: auto;
+  text-align: center;
+}
+#submit-button {
+  text-decoration: none;
+  color: aliceblue;
+  background-image: black;
+}
+footer p {
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url(image/bg-new.jpg);
+}
+li {
+  float: left;
+}
+li a {
+  text-decoration: none;
+  display: block;
+  padding: 15px 15px;
+  text-align: center;
+  color: aliceblue;
+}
+.last-bg {
+  background-image: url(image/bg-new.jpg);
+  box-shadow: 0px 0px 2px 2px rgb(29, 16, 29) inset;
+  display: ;
 }
